@@ -1,0 +1,18 @@
+package hi;
+import static org.junit.Assert.assertTrue;
+import java.util.Scanner;
+public class interst {
+		public static void main(String[] args)
+		{ 
+			Scanner sc=new Scanner(System.in);
+      system.out.print(" enter your principle :");
+			float P=sc.nextFloat();
+       system.out.print(" enter your rate of intrest :");
+			float R=sc.nextFloat(); 
+       system.out.print(" enter your time :");
+			float T=sc.nextFloat(); 
+			float SI = (P * T * R) / 100; 
+			System.out.println("Simple interest = " + SI);
+			assertTrue(3600==SI);
+			}
+		}
